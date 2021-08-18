@@ -1,4 +1,6 @@
 @startuml:
+
+
 class Cliente {
     - id
     - apellido
@@ -33,5 +35,15 @@ class Partido {
     - equipo_visitante
     
 }
+
+Partido *-- Equipo: equipo_local
+Partido *-- Equipo: equipo_visitante
+Cliente --> Apuesta: Realiza apuesta
+Cliente --|> Model
+Empresa --|> Model
+Equipo --|> Model
+Partido --|> Model
+Apuesta --> Partido: Se realiza sobre
+
 
 @enduml
