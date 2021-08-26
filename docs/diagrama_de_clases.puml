@@ -26,6 +26,7 @@ class Apuesta {
     - id
     - monto 
     - monto_minimo
+    - equipo_seleccionado
 }
 
 class Partido {
@@ -33,6 +34,7 @@ class Partido {
     - fecha
     - equipo_local
     - equipo_visitante
+    - finalizado
     
 }
 
