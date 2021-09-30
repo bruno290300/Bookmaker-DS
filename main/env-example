@@ -1,0 +1,6 @@
+export PORT=6000
+export DATABASE_PATH = '/home/bruno/diseñodesistemas/'
+export DATABASE_NAME = 'bookmaker-ds.db'
+#reemplazar el puerto
+export JWT_SECRET_KEY = 'clave-secreta-de-la-app'
+export JWT_ACCESS_TOKEN_EXPIRES = 3600

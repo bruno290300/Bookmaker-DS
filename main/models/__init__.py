@@ -1,3 +1,6 @@
-from .Cliente import Cliente as ClienteModels
-from .Equipo import Equipo as EquipoModels
-from .Empresa import Empresa as EmpresaModels
+from .cliente import Cliente as ClienteModel
+from .empresa import Empresa as EmpresaModel
+from .equipo import Equipo as EquipoModel
+from .cuota import Cuota as CuotaModel
+from .partido import Partido as PartidoModel
+from .apuesta import Apuesta as ApuestaModel
